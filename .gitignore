@@ -3,3 +3,7 @@ npm-debug.log
 withLayout/src/test
 withoutLayout/src/test
 .DS_Store
+withLayout/withoutRevision
+withLayout/withRevision
+withoutLayout/withRevision
+withoutLayout/withoutRevision
