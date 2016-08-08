@@ -45,6 +45,7 @@ const p = new Promise((resolve, reject) => {
   return new Promise((resolve, reject) => {
     revision_with_start = clock()
     Metalsmith(__dirname)
+      .clean(false)
       .destination('withRevision')
       .use((f, m, done) => {
         revision_with_nb = Object.keys(f).length
